@@ -27,7 +27,7 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread('/content/sea.png')
+image = cv2.imread('/content/ram.png')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert image to RGB for displaying
 plt.title("Input Image")
@@ -50,13 +50,15 @@ plt.axis('off')
 ## Output
 
 ### Input image and grayscale image
-![image](https://github.com/user-attachments/assets/ddb83a6b-60f8-40a2-8833-df66afb4798b)
-![image](https://github.com/user-attachments/assets/02f5c173-0616-41fb-988e-c4641cdc1318)
+<img width="1038" height="621" alt="image" src="https://github.com/user-attachments/assets/4429b836-5479-4c37-bada-ffbc1afc4787" />
+
 
 ### Canny Edge detector output
-![image](https://github.com/user-attachments/assets/c81a112f-f6b5-47e9-84d6-a5d9b902b176)
+<img width="392" height="616" alt="image" src="https://github.com/user-attachments/assets/e681e860-8fde-49d6-b7ea-6a48b4af52ed" />
+
 
 ### Display the result of Hough transform
-![image](https://github.com/user-attachments/assets/a76f041d-9314-4daf-91bc-e0830b3b70c6)
-# result :
+<img width="374" height="618" alt="image" src="https://github.com/user-attachments/assets/c778c149-f399-4982-8060-8b334e3cd723" />
+
+# Result :
 Thus,The Python program to detect the lines using Hough Transform run successfully.
